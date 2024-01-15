@@ -13,5 +13,4 @@ Deploy Lobe Chat server with CI/CD on Elestio
 You can open Lobe Chat here:
 
     https://[CI_CD_DOMAIN]/
-    Login: root
     password: [ADMIN_PASSWORD]
