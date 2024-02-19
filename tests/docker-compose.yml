@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  lobe-chat:
+    image: elestio4test/lobe-chat:latest
+    restart: always
+    ports:
+      - "172.17.0.1:57392:3210"
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      ACCESS_CODE: ${ADMIN_PASSWORD}
