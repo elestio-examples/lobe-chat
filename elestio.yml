@@ -13,7 +13,7 @@ ports:
 
 environments:
   - key: "SOFTWARE_VERSION_TAG"
-    value: "0.1.16"
+    value: "latest"
   - key: "ADMIN_PASSWORD"
     value: "random_password"
   - key: "DOMAIN"
